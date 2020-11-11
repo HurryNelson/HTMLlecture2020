@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap');
+
+body {
+    background-color:#101820;
+    color: rgb(255,182,18);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: rgb(165, 172, 175);
+}
+
+/* a tags contained within a nav tag */
+
+nav a {
+    color: rgb(165, 172, 175);
+    width: 16%;
+    display: inline-block;
+    text-align: center;
+    height: 3em;
+    vertical-align: center;
+    border: 1pt solid rgb(165, 172, 175);
+    border-radius: 15pt;
+    padding-top: 1.5em; /*em is the size of the letter m */
+    padding-bottom: 0;
+}
+
+/* fire when mouse is over the link */
+
+nav a:hover {
+    text-decoration: none;
+    /* turn off underline */
+    font-size: 1.5em;
+}
+
+h1,
+h2 {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    /* font-family: "impact", "sans serif"; */
+    /* Name of the font, default */
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
